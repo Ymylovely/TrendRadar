@@ -2,8 +2,8 @@ name: Hot News Crawler
 
 on:
   schedule:
-    - cron: "0 10 * * *"  # 每天上午10点
-    - cron: "0 14 * * *"  # 每天下午2点
+    - cron: "0 2 * * *"  # 每天上午10点
+    - cron: "0 7 * * *"  # 每天下午2点
   workflow_dispatch:
 
 # 添加权限设置
